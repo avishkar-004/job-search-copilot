@@ -1,0 +1,167 @@
+personal:
+  full_name: "Avishkar Mahesh Pawar"
+  first_name: "Avishkar"
+  last_name: "Pawar"
+  email: "avishkarpawar004@gmail.com"
+  phone: "+91-8623005430"
+  phone_digits: "8623005430"
+  location: "Pune, Maharashtra, India"
+  city: "Pune"
+  state: "Maharashtra"
+  country: "India"
+
+links:
+  linkedin: "https://www.linkedin.com/in/avishkarpawar"
+  github: "https://github.com/avishkar-004"
+  portfolio: "https://avishkar-004.github.io"
+  website: "https://avishkar-004.github.io"
+
+education:
+  degree: "Bachelor of Technology"
+  major: "Computer Engineering"
+  university: "MIT Academy of Engineering, Pune"
+  graduation_year: "2026"
+  graduation_month: "May"
+  start_year: "2022"
+  cgpa: "9.24"
+  gpa_scale: "10"
+
+experience:
+  years: "1"
+  current_company: "OSMOS"
+  current_role: "Software Developer"
+  notice_period: "Immediate"
+  expected_ctc_lpa: "25"
+  expected_ctc_inr: "2500000"
+  willing_to_relocate: true
+  work_authorization: "Indian Citizen"
+  require_sponsorship: false
+
+skills:
+  languages: "C++, Java, Python, JavaScript, TypeScript, SQL"
+  frameworks: "Spring Boot, FastAPI, React, Node.js, Express.js, Vue.js"
+  databases: "PostgreSQL, MySQL, MongoDB, Redis"
+  tools: "Git, Docker, Linux, AWS"
+  ai_ml: "OpenAI API, LangChain, NumPy, TensorFlow"
+  primary: "C++, Java, Python, JavaScript, TypeScript, SQL"
+  summary: "Backend development, distributed systems, system design, REST APIs, microservices, AI/ML"
+
+achievements:
+  gate: "GATE 2026 AIR 3124, Score 601 — Top 3% in Computer Science"
+  competitions: "1st place Technodium 25, 2nd place Code Sprint 2024"
+  publications: "Research paper on Sign Language Recognition using ML — Avinya 2025"
+
+resume:
+  text: |
+    AVISHKAR MAHESH PAWAR
+    avishkarpawar004@gmail.com | +91-8623005430 | Pune, Maharashtra
+    GitHub: github.com/avishkar-004 | LinkedIn: linkedin.com/in/avishkarpawar
+    Portfolio: avishkar-004.github.io
+
+    EDUCATION
+    B.Tech. Computer Engineering | MIT Academy of Engineering, Pune | 2022-2026 | CGPA: 9.24/10
+
+    EXPERIENCE
+    Software Developer - OSMOS | Jul 2025 - Present
+    - Worked on backend services using Node.js and developed applications using Python
+    - Contributed to product development from scratch including designing, implementing, and testing core features
+    - Collaborated with team to build scalable and efficient solutions ensuring high performance
+
+    Software Developer - Core-Decimal Solutions | Feb 2025 - Aug 2025
+    - Contributed to full-stack project using Vue.js, Express.js, and Sequelize with MVC architecture
+    - Developed reusable Vue.js components and integrated RESTful APIs with Axios
+    - Designed Sequelize models and schemas for dynamic UI component mapping
+
+    Software Engineer Intern - Campus Credential | Jun 2024 - Aug 2024
+    - Developed secure web-based system to digitize society administration with centralized dashboard
+    - Implemented modules for resident management, complaint tracking, and automated billing
+
+    PROJECTS
+    MiniDB - Distributed Database with ACID Transactions (C++17)
+    - Engineered fully-featured distributed key-value database from scratch (all 6 phases complete)
+    - Implemented B+ Tree indexing, MVCC concurrency control, Raft consensus, WAL crash recovery
+    - Built full SQL-like query processing with JOINs, consistent hashing sharding, HTTP monitoring
+    - Handles 10,000+ ops/sec with <1ms latency supporting 1000+ concurrent transactions
+
+    StreamFlow - Event Streaming Platform (Java 17 + Spring Boot)
+    - Architected distributed message queue processing 50,000+ messages/sec
+    - Implemented log-based storage with memory-mapped files and zero-copy transfer (3x throughput)
+    - Built consumer group coordinator with automatic partition rebalancing, 100+ concurrent consumers
+    - Integrated Prometheus metrics, Docker deployment, Snappy/LZ4 compression (70% bandwidth reduction)
+
+    VectorFlow - AI-Powered Vector Database (Python 3.11 + FastAPI)
+    - Built vector database implementing HNSW algorithm on 1M+ vectors with 95%+ recall
+    - Optimized cosine similarity using Numba JIT compilation achieving 10x speedup
+    - Integrated OpenAI embeddings and LangChain for RAG pipeline with context-aware responses
+    - Built RESTful API handling 1000+ concurrent requests with consistent hashing sharding
+
+    SKILLS
+    Languages: C++17, Java 17, Python 3.11, JavaScript, TypeScript, SQL
+    Frameworks: Spring Boot, FastAPI, React, Node.js, Express.js, Vue.js
+    Databases: PostgreSQL, MySQL, MongoDB, Redis
+    Tools: Git, Docker, Linux, AWS, CMake, Maven, Prometheus
+    Concepts: Distributed Systems, System Design, Raft Consensus, MVCC, HNSW, RAG, Microservices
+
+    ACHIEVEMENTS
+    - GATE 2026: AIR 3124, Score 601 (Top 3% in CS - 3x improvement from GATE 2025 AIR 9860)
+    - 1st Place - Technodium 25 Technical Competition (2025)
+    - 2nd Place - Code Sprint Competition (2024)
+    - Published research paper: Sign Language Recognition using ML - Avinya 2025
+
+    CERTIFICATIONS
+    - CCNA: Introduction to Networks - Cisco
+    - CCNA: Switching, Routing and Wireless Essentials - Cisco
+    - CCNA: Enterprise Networking, Security and Automation - Cisco
+    - Programming in Modern C++ - NPTEL
+    - Cloud Computing - NPTEL
+    - Introduction to Machine Learning - NPTEL
+    - Red Hat Academy Program - Red Hat
+
+ai:
+  provider: "groq"
+  api_key: "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"
+  model: "llama-3.3-70b-versatile"
+
+search:
+  platforms:
+    - "linkedin"
+    - "naukri"
+    - "wellfound"
+    - "indeed"
+    - "ycombinator"
+    - "cutshort"
+  keywords:
+    - "Software Engineer"
+    - "Backend Engineer"
+    - "Systems Engineer"
+    - "Distributed Systems Engineer"
+    - "Database Engineer"
+    - "SDE 1"
+    - "SDE Intern"
+  locations:
+    - "Bangalore, India"
+    - "Pune, India"
+    - "Hyderabad, India"
+    - "Remote, India"
+    - "India"
+  experience_levels:
+    - "Entry level"
+    - "Internship"
+    - "Associate"
+  min_fit_score: 65
+  preferred_min_ctc_lpa: 18   # below this is shown but flagged as a red flag
+  max_per_run: 25
+  blacklist_companies: []
+  blacklist_keywords:
+    - "Senior"
+    - "Staff"
+    - "Principal"
+    - "Lead"
+    - "Manager"
+    - "Director"
+    - "5+ years"
+    - "7+ years"
+    - "10+ years"
+
+dashboard:
+  push_url: ""        # optional: e.g. "http://127.0.0.1:7000"
