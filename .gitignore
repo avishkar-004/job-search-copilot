@@ -1,8 +1,36 @@
+# Virtual environment
 .venv/
+venv/
+env/
+ENV/
+
+# Python
 __pycache__/
-*.pyc
-.DS_Store
-.env
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Logs and runtime data — generated, never tracked
 logs/
 data/
 reports/
+*.log
+
+# Sessions / cookies (sensitive)
+*session*.json
+cookies.json
+
+# Local secrets / credentials (never commit)
+.env
+.env.local
+secrets.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
