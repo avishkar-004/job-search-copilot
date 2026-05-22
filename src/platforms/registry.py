@@ -3,6 +3,8 @@ from .naukri import NaukriPlatform
 from .indeed import IndeedPlatform
 from .internshala import IntershalaPlatform
 from .unstop import UnstopPlatform
+from .wellfound import WellfoundPlatform
+from .glassdoor import GlassdoorPlatform
 
 PLATFORM_REGISTRY = {
     "linkedin": LinkedInPlatform,
@@ -10,6 +12,8 @@ PLATFORM_REGISTRY = {
     "indeed": IndeedPlatform,
     "internshala": IntershalaPlatform,
     "unstop": UnstopPlatform,
+    "wellfound": WellfoundPlatform,
+    "glassdoor": GlassdoorPlatform,
 }
 
 
