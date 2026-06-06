@@ -227,3 +227,18 @@ This tool is read-only. It does **not** submit applications. Please:
 
 The maintainer accepts no responsibility for account bans or any other
 consequence of running this software.
+
+## CLI cheat sheet
+
+| Command                                   | What it does                                |
+| ----------------------------------------- | ------------------------------------------- |
+| `python main.py`                          | Full search across all configured platforms |
+| `python main.py --platforms linkedin`     | Only one platform                           |
+| `python main.py --since 24h`              | Only postings from the last 24 hours        |
+| `python main.py --limit 20`               | Cap each platform to N results              |
+| `python main.py --dry-run`                | Search + dedup only; skip AI + reports      |
+| `python main.py report`                   | Regenerate today's markdown from CSV        |
+| `python main.py mark-applied <hash>`      | Update tracker — applied                    |
+| `python main.py mark-rejected <hash>`     | Update tracker — rejected                   |
+| `python main.py --dashboard`              | Start Flask dashboard at localhost:7000     |
+
