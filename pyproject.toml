@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "job-search-copilot"
+version = "0.2.0"
+description = "Read-only job search copilot — searches multiple platforms, scores fit with AI, generates daily reports. Does NOT auto-apply."
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+license = { text = "MIT" }
+authors = [{ name = "Avishkar Pawar" }]
+keywords = ["job-search", "playwright", "ai", "groq", "linkedin"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Office/Business",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "playwright==1.44.0",
+    "pyyaml==6.0.1",
+    "httpx==0.27.0",
+    "flask==3.0.3",
+    "flask-socketio==5.3.6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-asyncio>=0.23", "ruff>=0.4"]
+
+[project.scripts]
+job-copilot = "main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-q --strict-markers"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+ignore = ["E501"]
