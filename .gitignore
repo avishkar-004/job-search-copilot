@@ -18,6 +18,7 @@ logs/
 data/
 reports/
 *.log
+*.csv
 
 # Sessions / cookies (sensitive)
 *session*.json

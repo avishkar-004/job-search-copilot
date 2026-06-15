@@ -340,5 +340,3 @@ Return only the cover letter text, no preamble."""
             f"(MiniDB, StreamFlow, VectorFlow) and am excited about the {job.title} role. "
             f"I would welcome the chance to discuss how I can contribute."
         )
-
-# end of ai/engine.py — tailored bullets + cover letter live above
