@@ -119,7 +119,7 @@ resume:
 
 ai:
   provider: "groq"
-  api_key: "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"
+  api_key: "<api_key>"
   model: "llama-3.3-70b-versatile"
 
 search:
